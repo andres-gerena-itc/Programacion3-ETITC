@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(233, 236, 250);
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.columna-derecha {
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+.img {
+  width: auto;
+  height: 90px;
+}
+
+
+i{
+  font-style: italic;
+
+}
