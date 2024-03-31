@@ -119,3 +119,7 @@ img.up:hover{
   justify-content: end;
   padding-right: 5%;
 }
+
+.button{
+  text-align: left;
+}
