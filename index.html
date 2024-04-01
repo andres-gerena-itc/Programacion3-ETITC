@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Carta Andres Gerena">
-  <!-- <link rel="shortcut icon" href="favicon.png"> Integrar Favicon -->
+  <link rel="icon" href="assets/images/logo_macdonals.png" type="image/x-icon">
   <title>Andrés Gerena</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -43,10 +43,7 @@
         <p id="experiencia">Años Experiencia: </p>
         <strong>Correo</strong>: afgerenac@itc.edu.co
       </address>
-      <p class="columna-derecha"><time datetime="2024-03-12">12 de marzo del 2024</time></p>
-
-
-      <script src="assets/js/main.js"></script>
+      <p class="columna-derecha" id="fecha"></p>
     </div>
 
     <div>
@@ -153,26 +150,31 @@
     </div> <br>
 
 
-    <form action="">
+    <form id="formulario">
       <fieldset>
         <legend>Agendemos una reunión</legend>
         <p><label class="title" for="name">Nombre:</label>
-           <input type="text" name="name" id="name" required><br />
-           <label class="title" for="email">Correo:</label>
-           <input type="text" name="email" id="email" required></p>
-        <p><label for="location" class="title">Your closest center:</label>
-           <select name="location" id="location">
+          <input type="text" name="name" id="name" required><br />
+          <label class="title" for="email">Correo:</label>
+          <input type="text" name="email" id="email" required>
+        </p>
+        <p><label for="location" class="title">País:</label>
+          <select name="location" id="location" required>
             <option value=""></option>
-             <option value="co">Colombia</option>
-             <option value="eu">Estados Unidos</option>
-             <option value="es">España</option>
-           </select></p>
-        <span class="title">Me conoces?</span>
-        <label><input type="radio" name="member" value="si" /> Si</label>
-        <label><input type="radio" name="member" value="no" /> No</label>
+            <option value="co">Colombia</option>
+            <option value="eu">Estados Unidos</option>
+            <option value="es">España</option>
+          </select>
+        </p>
+        <button type="submit">Enviar Información</button>
       </fieldset>
-       <div class="submit" onclick="envioFormulario()"><input type="submit" value="Enviar Información" /></div>
     </form>
+
+    <h4>SUMA DE 0 HASTA N</h4>
+    <p>Ingresa un número:</p>
+    <input type="number" id="numero">
+    <button id="boton" type="button" onclick="sumar()">Sumar</button>
+    <p id="resultado"></p>
   </div>
 
   <div class="arriba">
@@ -185,6 +187,6 @@
     <p class="footer">&copy; Copyright 2024 - Andrés Gerena</p>
   </div>
 
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>

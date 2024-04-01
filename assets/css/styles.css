@@ -123,3 +123,40 @@ img.up:hover{
 .button{
   text-align: left;
 }
+
+
+
+
+/*Estilo Suma*/
+
+#suma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#numero {
+  font-size: 24px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#boton {
+  color: #ccc;
+  background-color: #742525;
+  font-size: 18px;
+  padding: 7px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resultado {
+  color: #ff5100;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
